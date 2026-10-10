@@ -1,0 +1,17 @@
+{
+  "last_updated": "2026-10-10",
+  "active_regime": "SMC_SWEEP",
+  "past_vs_current": {
+    "past_successful_strategy": "SMC_FVG (3-6 months ago)",
+    "current_dominant_strategy": "SMC_SWEEP (Last 1-2 months)"
+  },
+  "strategy_weights": {
+    "SMC_SWEEP": 0.85,
+    "SMC_FVG": 0.55,
+    "ORDER_BLOCK": 0.70
+  },
+  "session_rules": {
+    "LONDON": "SMC_SWEEP",
+    "NEW_YORK": "SMC_FVG"
+  }
+}
